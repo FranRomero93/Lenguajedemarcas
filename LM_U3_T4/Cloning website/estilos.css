@@ -1,0 +1,160 @@
+#container {margin: 0px auto;
+    width: 900px;
+    overflow-y: auto;
+}
+
+/*Contacto*/
+#enlaces {float:right;
+    margin-right: 15px;
+    overflow-y: auto;
+    color: blue;
+}
+
+#enlace {margin: 2px 0px;}
+/*cabecera*/
+
+#cabecera {
+    overflow-y: auto;
+    clear:both;
+}
+
+#imagen {float:left;
+    width: 199px;
+    display:inline;
+}
+
+
+#contacto {text-align: right;
+    float:left;
+    display:inline;
+    margin-top: 20px;
+}
+
+#p1 {font-size: 23px;
+    margin: 0px;
+}
+
+#p2 {font-size: 14px;
+    margin-top: 5px;
+}
+
+#boton1 {padding: 5px 10px;
+    float:left;
+    display:inline;
+    background-color: #a0e03e;
+    margin-right: 5px;
+    margin-left: 29px;
+    color: white;
+    margin-top: 15px;
+}
+
+#boton2 {padding: 5px 10px;
+    float:left;
+    display:inline;
+    background-color: darkgrey;
+    margin-right: 15px;
+    color: white;
+    margin-top: 15px;
+}
+
+/*Menu*/
+
+#menu {overflow-x: auto;
+    background-color: dodgerblue;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#menu1 {overflow-y: auto;
+    float:left;
+    background-color: dodgerblue;
+}
+
+#menu1 li {display: inline;
+    padding: 15px;
+    background-color: dodgerblue;
+}
+
+#menu1 ul {padding: 0px;}
+
+#menu2 {overflow-y: auto;
+    float:right;
+    background-color: dodgerblue;
+}
+
+#menu2 li {display: inline;
+    padding: 15px;
+    background-color: dodgerblue;
+}
+
+#menu2 ul {padding: 0px;}
+
+/*Cuerpo*/
+
+#Cuerpo {overflow-y: auto;
+    background-color: dodgerblue;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+#titulos {margin-top: 30px;
+}
+
+#titulo1 {font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+#titulo2 {font-size: 25px;
+    color: white;
+    margin: 5px 0px;
+}
+
+#cuadros {margin: 10px 0px;
+    overflow-y: auto;
+    width: 400px;
+}
+
+#cuadro1 {margin: 15px 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    background-color: rgba(237, 232, 232, 0.9);
+    color: darkgrey;
+}
+
+#pc1 {margin: 0px;}
+
+#cuadro2 {margin: 15px 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    background-color: rgba(237, 232, 232, 0.9);
+    color: darkgrey;
+}
+
+#pc2 {margin: 0px;}
+
+#boton3 {overflow-x: auto;
+    padding: 5px 10px;
+    background-color: #a0e03e;
+    margin-right: 15px;
+    color: white;
+    margin-top: 15px;
+    width: 150px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
