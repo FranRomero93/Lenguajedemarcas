@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-1.11.3.js"></script>
+      <link rel="stylesheet" type="text/css" href="JQuery1.css">
+      
+  </head>
+  <body>
+
+      <h1>Hola Mundo</h1>
+      
+      <table id="cal">
+            
+            <tr>
+            <td>Hora</td>
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miércoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+        </tr>
+        <tr>
+            <td>8:15-9:15</td>
+            <td>GBD</td>
+            <td>LGM</td>
+            <td>ISO</td>
+            <td>LGM</td>
+            <td>ISO</td>
+        </tr>
+        <tr>
+            <td>9:15-10:15</td>
+            <td>GBD</td>
+            <td>LGM</td>
+            <td>ISO</td>
+            <td>LGM</td>
+            <td>ISO</td>
+        </tr>
+        <tr>
+            <td>10:15-11:15</td>
+            <td>GBD</td>
+            <td></td>
+            <td>ISO</td>
+            <td></td>
+            <td>FHDW</td>
+        </tr>
+        <tr>
+            <td></td> 
+        </tr>
+        <tr>
+            <td>11:45-12:45</td>
+            <td>REDES</td>
+            <td>ISO</td>
+            <td>GBD</td>
+            <td>REDES</td>
+            <td>FHDW</td>
+        </tr>
+        <tr>
+            <td>12:45-13:45</td>
+            <td>REDES</td>
+            <td>ISO</td>
+            <td>GBD</td>
+            <td>REDES</td>
+            <td>FHDW</td>
+        </tr>  
+        <tr>
+            <td>13:45-14:45</td>
+            <td>REDES</td>
+            <td>ISO</td>
+            <td>GBD</td>
+            <td>REDES</td>
+            <td></td>
+        </tr> 
+      </table>
+      
+      <table id="cal2">
+        <tr>
+           <td>1</td> 
+        </tr>
+          
+        <tr>
+           <td>2</td> 
+        </tr>
+          
+        <tr>
+           <td>3</td> 
+        </tr>
+          
+        <tr>
+           <td>4</td> 
+        </tr>
+          
+        <tr>
+           <td>5</td> 
+        </tr>
+          
+        <tr>
+           <td>6</td> 
+        </tr>
+          
+        <tr>
+           <td>7</td> 
+        </tr>
+          
+        <tr>
+           <td>8</td> 
+        </tr>
+        <tr>
+           <td>9</td> 
+        </tr>  
+        <tr>
+           <td>10</td> 
+        </tr>
+      </table>
+      
+      <p>Primer parrafo</p>
+      <p>Segundo parrafo</p>
+      <p>Tercer parrafo</p>
+      <p>Cuarto parrafo</p>
+      
+      
+      <script type="text/javascript">
+        //This part is executed only when all the document is loaded
+        $(function() {
+            console.log("Ready for jQuery");
+            $("h1").addClass("titulo");
+            $("#cal tr:first").css({"background-color":"red","color":"white"});
+            $("#cal2 tr:odd").addClass("impar");
+            $("#cal2 tr:even").addClass("par");
+            
+        });
+      </script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+#container {
+    width: 900px;
+    height: 1000px;
+    margin: auto;
+}
+
+#cabecera {
+    width: 900px;
+    height: 140px;
+}
+
+#CG {
+    width: 400px;
+    height: 100px;
+    float: right;
+}
+
+#CG h2 {
+    background-color: forestgreen;
+    color: white;
+    text-align: center;
+}
+
+#contenido {
+    width: 900px;
+    height: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#controles {
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+#contenidobarra {
+    width: 650px;
+    height: 100px;
+    float: left;
+    border-left: 1px solid black;
+}
+
+#barra1 {
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    margin-left: 10px;
+}
+
+#barra2 {
+    width: 400px;
+    height: 100px;
+    background-color: blue;
+    margin-left: 10px;
+}
+
+#barra3 {
+    width: 400px;
+    height: 100px;
+    background-color: forestgreen;
+    margin-left: 10px;
+}
+
+button{
+  width: 160px;
+  margin: 5px 0px;
+}

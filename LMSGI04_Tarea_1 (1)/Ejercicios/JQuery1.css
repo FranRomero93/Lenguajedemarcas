@@ -1,0 +1,26 @@
+.titulo {
+    background-color: black;
+    color: white;
+}
+
+table {
+    border: 1px solid;   
+}
+
+td {
+    border: 1px solid;   
+}
+
+#cal {
+    margin-bottom: 30px;
+}
+
+.impar {
+    background-color: grey;
+    color: black;
+}
+
+.par {
+    background-color: brown;
+    color: white;
+}
